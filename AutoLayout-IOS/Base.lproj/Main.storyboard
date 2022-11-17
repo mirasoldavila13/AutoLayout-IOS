@@ -30,24 +30,24 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pcr-s4-nFW" userLabel="MiddleView">
                                         <rect key="frame" x="0.0" y="274" width="414" height="266"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="54" translatesAutoresizingMaskIntoConstraints="NO" id="SHD-Qj-Qbs">
-                                                <rect key="frame" x="80" y="83" width="254" height="100"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="SHD-Qj-Qbs">
+                                                <rect key="frame" x="82" y="83" width="250" height="100"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceTwo" translatesAutoresizingMaskIntoConstraints="NO" id="WPc-Pl-WHz">
                                                         <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceTwo" translatesAutoresizingMaskIntoConstraints="NO" id="pVc-LH-eqm">
-                                                        <rect key="frame" x="154" y="0.0" width="100" height="100"/>
+                                                        <rect key="frame" x="150" y="0.0" width="100" height="100"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="SHD-Qj-Qbs" firstAttribute="centerY" secondItem="Pcr-s4-nFW" secondAttribute="centerY" id="Vd0-JK-K8C"/>
                                             <constraint firstItem="SHD-Qj-Qbs" firstAttribute="centerX" secondItem="Pcr-s4-nFW" secondAttribute="centerX" id="eHa-0B-ldH"/>
@@ -69,7 +69,7 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="Ykd-Re-CwE" firstAttribute="centerY" secondItem="1vg-DZ-h9T" secondAttribute="centerY" id="CqK-d3-imJ"/>
                                             <constraint firstItem="Ykd-Re-CwE" firstAttribute="centerX" secondItem="1vg-DZ-h9T" secondAttribute="centerX" id="acj-ec-ixM"/>
