@@ -35,8 +35,8 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pcr-s4-nFW" userLabel="MiddleView">
                                         <rect key="frame" x="0.0" y="274" width="414" height="266"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="54" translatesAutoresizingMaskIntoConstraints="NO" id="SHD-Qj-Qbs">
-                                                <rect key="frame" x="20" y="20" width="334" height="160"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="54" translatesAutoresizingMaskIntoConstraints="NO" id="SHD-Qj-Qbs">
+                                                <rect key="frame" x="80" y="83" width="254" height="100"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceTwo" translatesAutoresizingMaskIntoConstraints="NO" id="WPc-Pl-WHz">
                                                         <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
@@ -48,6 +48,10 @@
                                             </stackView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="SHD-Qj-Qbs" firstAttribute="centerY" secondItem="Pcr-s4-nFW" secondAttribute="centerY" id="Vd0-JK-K8C"/>
+                                            <constraint firstItem="SHD-Qj-Qbs" firstAttribute="centerX" secondItem="Pcr-s4-nFW" secondAttribute="centerX" id="eHa-0B-ldH"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1vg-DZ-h9T" userLabel="BottomView">
                                         <rect key="frame" x="0.0" y="548" width="414" height="266"/>
