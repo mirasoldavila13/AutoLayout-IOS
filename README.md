@@ -14,5 +14,8 @@ We may specify guidelines for how we want our views to be displayed using Auto L
 * Understanding what Xcode needs in order to correctly layout a design.
 * How to use Stack Views to create complex interfaces.
 
+# Portrait
 ![Alt text](documentation/auto_layout_dice.png)
+
+# Landscape
 ![Alt text](documentation/auto_layout_dice_rotate.png)
