@@ -49,9 +49,8 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1vg-DZ-h9T" userLabel="BottomView">
                                         <rect key="frame" x="0.0" y="548" width="414" height="266"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ykd-Re-CwE">
-                                                <rect key="frame" x="20" y="20" width="147" height="75"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ykd-Re-CwE">
+                                                <rect key="frame" x="163.5" y="102" width="87.5" height="62"/>
                                                 <color key="backgroundColor" red="0.55686277149999996" green="0.1607843041" blue="0.14509806040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Roll">
@@ -64,6 +63,10 @@
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="Ykd-Re-CwE" firstAttribute="centerY" secondItem="1vg-DZ-h9T" secondAttribute="centerY" id="CqK-d3-imJ"/>
+                                            <constraint firstItem="Ykd-Re-CwE" firstAttribute="centerX" secondItem="1vg-DZ-h9T" secondAttribute="centerX" id="acj-ec-ixM"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                             </stackView>
