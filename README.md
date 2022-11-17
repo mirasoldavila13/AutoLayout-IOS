@@ -13,3 +13,6 @@ We may specify guidelines for how we want our views to be displayed using Auto L
 * How to debug auto layout errors.
 * Understanding what Xcode needs in order to correctly layout a design.
 * How to use Stack Views to create complex interfaces.
+
+![Alt text](documentation/auto_layout_dice.png)
+![Alt text](documentation/auto_layout_dice_rotate.png)
